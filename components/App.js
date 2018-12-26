@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="container">
         <div className="menu">
-          <NavLink to="/">
+          <NavLink to="/rentals">
             <h1>
               <em>SuperRentals</em>
             </h1>
