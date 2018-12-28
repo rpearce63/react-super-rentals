@@ -11,12 +11,10 @@
  */
 
 import * as constants from "./constants";
-import { rentalData } from "./rentalData";
 
 export const loadRentals = () => {
   return {
-    type: constants.LOAD_RENTALS,
-    payload: rentalData
+    type: constants.LOAD_RENTALS
   };
 };
 
